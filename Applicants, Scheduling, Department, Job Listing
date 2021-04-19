@@ -1,0 +1,3222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<unload unload_date="2021-04-19 01:26:29">
+
+
+-<sys_remote_update_set action="INSERT_OR_UPDATE">
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<application_name>HR Automation</application_name>
+
+<application_scope>x_snc_hr_automatio</application_scope>
+
+<application_version>1.0.0</application_version>
+
+<collisions/>
+
+<commit_date/>
+
+<deleted/>
+
+<description>test</description>
+
+<inserted/>
+
+<name>ActiveListing1</name>
+
+<origin_sys_id/>
+
+<parent display_value=""/>
+
+<release_date/>
+
+<remote_base_update_set display_value=""/>
+
+<remote_parent_id/>
+
+<remote_sys_id>06d91fafdb66201048a17405e2961975</remote_sys_id>
+
+<state>loaded</state>
+
+<summary/>
+
+<sys_class_name>sys_remote_update_set</sys_class_name>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>543734aa1b6364107761ddbddc4bcb50</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<update_set display_value=""/>
+
+<update_source display_value=""/>
+
+<updated/>
+
+</sys_remote_update_set>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_dictionary_x_snc_hr_automatio_active_listing_table_position</name>
+
+<payload><?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="position" table="x_snc_hr_automatio_active_listing_table"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation><![CDATA[(function calculatedFieldValue(current) {// Add your code herereturn ''; // return the calculated value })(current);]]></calculation><choice/><choice_field/><choice_table/><column_label>Position</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>position</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_hr_automatio_active_listing_table</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:27:28</sys_created_on><sys_id>7670f36fdba6201048a17405e2961922</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Position</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_dictionary_x_snc_hr_automatio_active_listing_table_position</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:27:28</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update></payload>
+
+<payload_hash>10199960</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>103734aa1b6364107761ddbddc4bcb53</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177faa1e3b40000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table.Position</target_name>
+
+<type>Dictionary</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>b780376fd6a620100ea27a6fc596e65e</update_guid>
+
+<update_guid_history>b780376fd6a620100ea27a6fc596e65e:10199960</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_716da3ebdba6201048a17405e2961907</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_hr_automatio_active_listing_table</description><name>x_snc_hr_automatio_active_listing_table</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>716da3ebdba6201048a17405e2961907</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_security_acl_716da3ebdba6201048a17405e2961907</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]>
+</payload>
+
+<payload_hash>-740981872</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>103734aa1b6364107761ddbddc4bcb56</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9544c90000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>x_snc_hr_automatio_active_listing_table</target_name>
+
+<type>Access Control</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>b16da3ebdfa62010fbb0faf91b0c9509</update_guid>
+
+<update_guid_history>b16da3ebdfa62010fbb0faf91b0c9509:-740981872</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_list_x_snc_hr_automatio_department_table_null</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_hr_automatio_department_table" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="x_snc_hr_automatio_department_table" element="NULL" name="x_snc_hr_automatio_department_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ff6d791e1b3ea4107761ddbddc4bcb41</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 05:07:47</sys_created_on><sys_id>bb6d791e1b3ea4107761ddbddc4bcb42</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 05:07:47</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>job_id</element><list_id display_value="x_snc_hr_automatio_department_table" element="NULL" name="x_snc_hr_automatio_department_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ff6d791e1b3ea4107761ddbddc4bcb41</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 05:07:47</sys_created_on><sys_id>3f6d791e1b3ea4107761ddbddc4bcb42</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 05:07:47</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>job_description</element><list_id display_value="x_snc_hr_automatio_department_table" element="NULL" name="x_snc_hr_automatio_department_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ff6d791e1b3ea4107761ddbddc4bcb41</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 05:07:47</sys_created_on><sys_id>bf6d791e1b3ea4107761ddbddc4bcb42</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 05:07:47</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_snc_hr_automatio_department_table</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 05:07:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ff6d791e1b3ea4107761ddbddc4bcb41</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_department_table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_ui_list_x_snc_hr_automatio_department_table_null</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 05:07:47</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]>
+</payload>
+
+<payload_hash>383831133</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>1037b4aa1b6364107761ddbddc4bcbae</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>17824d564bf0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_department_table</table>
+
+<target_name>Department Table</target_name>
+
+<type>List Layout</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>376db91e243ea4105bb5e02549b04d56</update_guid>
+
+<update_guid_history>376db91e243ea4105bb5e02549b04d56:383831133,086d97b9be7aa01063e082fc5d876c09:-1737375498</update_guid_history>
+
+<update_set display_value=""/>
+
+<view>Default view</view>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_dictionary_x_snc_hr_automatio_active_listing_table_department</name>
+
+<payload><?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="department" table="x_snc_hr_automatio_active_listing_table"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation><![CDATA[(function calculatedFieldValue(current) {// Add your code herereturn ''; // return the calculated value })(current);]]></calculation><choice/><choice_field/><choice_table/><column_label>Department</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>department</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_hr_automatio_active_listing_table</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:28:40</sys_created_on><sys_id>4cc03b6fdba6201048a17405e296192e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Department</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_dictionary_x_snc_hr_automatio_active_listing_table_department</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:28:40</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update></payload>
+
+<payload_hash>1037387096</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>143734aa1b6364107761ddbddc4bcb52</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177faa2f93e0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table.Department</target_name>
+
+<type>Dictionary</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>85d07b6f0aa620100ef585acb9fb5531</update_guid>
+
+<update_guid_history>85d07b6f0aa620100ef585acb9fb5531:1037387096</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>DELETE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_metadata_delete_008dc726577747c08ddd3104fd4c9f90</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_delete"><sys_metadata_delete action="DELETE"><sys_audit_delete/><sys_class_name>sys_metadata_delete</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-03 23:55:22</sys_created_on><sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object><sys_id>008dc726577747c08ddd3104fd4c9f90</sys_id><sys_metadata>3c98afe7dba6201048a17405e2961905</sys_metadata><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_parent display_value="">6b28e7e7dba6201048a17405e29619fd</sys_parent><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_scope_delete display_value="">344c5832e6ed4f7689566ac1533b03f9</sys_scope_delete><sys_update_name>sys_dictionary_x_snc_hr_automatio_active_listing_table_null</sys_update_name><sys_update_version display_value="sys_dictionary_x_snc_hr_automatio_active_listing_table_null">0598afe7dba6201048a17405e2961921</sys_update_version><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-03 23:55:22</sys_updated_on></sys_metadata_delete></record_update>]]>
+</payload>
+
+<payload_hash>1223595066</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>143734aa1b6364107761ddbddc4bcb55</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa95473c0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>x_snc_hr_automatio_active_listing_table</target_name>
+
+<type>Deleted Application File</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>466da3ebc3a6201044d731d0a26f6224</update_guid>
+
+<update_guid_history>466da3ebc3a6201044d731d0a26f6224:1223595066</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_role_bd6d63ebdba6201048a17405e29619f7</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>bd6d63ebdba6201048a17405e29619f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table.x_snc_hr_automatio.active_listing_table_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_security_acl display_value="x_snc_hr_automatio_active_listing_table">7d6d63ebdba6201048a17405e29619f4</sys_security_acl><sys_update_name>sys_security_acl_role_bd6d63ebdba6201048a17405e29619f7</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><sys_user_role display_value="x_snc_hr_automatio.active_listing_table_user" name="x_snc_hr_automatio.active_listing_table_user">696d6fabdba6201048a17405e2961946</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]>
+</payload>
+
+<payload_hash>-1028017500</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>1437b4aa1b6364107761ddbddc4bcbad</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9543ee0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>x_snc_hr_automatio_active_listing_table.x_snc_hr_automatio.active_listing_table_user</target_name>
+
+<type>Access Roles</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>f16d63eb92a62010e4456ba2fe2a46fa</update_guid>
+
+<update_guid_history>f16d63eb92a62010e4456ba2fe2a46fa:-1028017500</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_app_module_cfe953391b7aa01017928733cc4bcb3d</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HR Automation">22dbc5911bbae0107761ddbddc4bcb52</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Department Tables</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_hr_automatio_department_table</name><order>30</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_hr_automatio.department_table_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>hvl5469</sys_created_by><sys_created_on>2021-03-10 22:34:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cfe953391b7aa01017928733cc4bcb3d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Departments</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_app_module_cfe953391b7aa01017928733cc4bcb3d</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 04:56:07</sys_updated_on><timeline_page/><title>Departments</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]>
+</payload>
+
+<payload_hash>1879670535</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>183734aa1b6364107761ddbddc4bcb51</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>17824cab4b00000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_department_table</table>
+
+<target_name>Departments</target_name>
+
+<type>Module</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>f4ca399a8d3ea410e608e355c68676b8</update_guid>
+
+<update_guid_history>f4ca399a8d3ea410e608e355c68676b8:1879670535,3f6dd7b90b7aa010146bddfc198d706b:-156343394,4be95339617aa010c0007e2e9845d23f:-1019084824</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_documentation_x_snc_hr_automatio_active_listing_table__en</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Active Listing Table" language="en" table="x_snc_hr_automatio_active_listing_table"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Active Listing Table</label><language>en</language><name>x_snc_hr_automatio_active_listing_table</name><plural>Active Listing Tables</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>b56da3ebdba6201048a17405e2961914</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing Table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_documentation_x_snc_hr_automatio_active_listing_table__en</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]>
+</payload>
+
+<payload_hash>1702021880</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>183734aa1b6364107761ddbddc4bcb54</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9549750000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table</target_name>
+
+<type>Field Label</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>066da3eb01a62010aa44e5a754b4692d</update_guid>
+
+<update_guid_history>066da3eb01a62010aa44e5a754b4692d:1702021880,7039672bc9a6201054d6b295e57eab31:-1119988128,c198afe7a4a62010b708c81338204d22:1702021880</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_role_316da3ebdba6201048a17405e296190a</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>316da3ebdba6201048a17405e296190a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table.x_snc_hr_automatio.active_listing_table_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_security_acl display_value="x_snc_hr_automatio_active_listing_table">716da3ebdba6201048a17405e2961907</sys_security_acl><sys_update_name>sys_security_acl_role_316da3ebdba6201048a17405e296190a</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><sys_user_role display_value="x_snc_hr_automatio.active_listing_table_user" name="x_snc_hr_automatio.active_listing_table_user">696d6fabdba6201048a17405e2961946</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]>
+</payload>
+
+<payload_hash>-1327326817</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>183734aa1b6364107761ddbddc4bcb57</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9544f30000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>x_snc_hr_automatio_active_listing_table.x_snc_hr_automatio.active_listing_table_user</target_name>
+
+<type>Access Roles</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>f16da3eb54a62010b38258e9b85b6f0c</update_guid>
+
+<update_guid_history>f16da3eb54a62010b38258e9b85b6f0c:-1327326817</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_user_role_696d6fabdba6201048a17405e2961946</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_snc_hr_automatio.active_listing_table_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>active_listing_table_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:41</sys_created_on><sys_id>696d6fabdba6201048a17405e2961946</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio.active_listing_table_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_user_role_696d6fabdba6201048a17405e2961946</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:41</sys_updated_on></sys_user_role></record_update>]]>
+</payload>
+
+<payload_hash>605643356</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>1837b4aa1b6364107761ddbddc4bcbaf</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa95428f0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>x_snc_hr_automatio.active_listing_table_user</target_name>
+
+<type>Role</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>ad6d63eb24a62010c1bb8ec7d2dc12e7</update_guid>
+
+<update_guid_history>ad6d63eb24a62010c1bb8ec7d2dc12e7:605643356</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_app_application_3d6d63ebdba6201048a17405e29619eb</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Active Listing Table</name><order>100</order><roles>x_snc_hr_automatio.active_listing_table_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3d6d63ebdba6201048a17405e29619eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing Table</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_app_application_3d6d63ebdba6201048a17405e29619eb</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:41</sys_updated_on><title>Active Listing Table</title><view_name/></sys_app_application></record_update>]]>
+</payload>
+
+<payload_hash>219720364</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>1c3734aa1b6364107761ddbddc4bcb50</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9542f50000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>Active Listing Table</target_name>
+
+<type>Application Menu</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>f56d63eb5da620106e87f4dd498718ed</update_guid>
+
+<update_guid_history>f56d63eb5da620106e87f4dd498718ed:219720364</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_documentation_x_snc_hr_automatio_active_listing_table_department_en</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="department" label="Department" language="en" table="x_snc_hr_automatio_active_listing_table"><sys_documentation action="INSERT_OR_UPDATE"><element>department</element><help/><hint/><label>Department</label><language>en</language><name>x_snc_hr_automatio_active_listing_table</name><plural>Departments</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:28:40</sys_created_on><sys_id>8dd07b6fdba6201048a17405e296192a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Department</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_documentation_x_snc_hr_automatio_active_listing_table_department_en</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:28:40</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]>
+</payload>
+
+<payload_hash>1782808760</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>1c3734aa1b6364107761ddbddc4bcb53</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177faa2f9570000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table.Department</target_name>
+
+<type>Field Label</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>0dd07b6f3ea6201077ed674406509b32</update_guid>
+
+<update_guid_history>0dd07b6f3ea6201077ed674406509b32:1782808760</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_ccdae76bdba6201048a17405e29619cd</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_hr_automatio_active_listing</description><name>x_snc_hr_automatio_active_listing</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_id>ccdae76bdba6201048a17405e29619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_security_acl_ccdae76bdba6201048a17405e29619cd</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]>
+</payload>
+
+<payload_hash>-289482545</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>1c3734aa1b6364107761ddbddc4bcb56</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8ae9dd0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>x_snc_hr_automatio_active_listing</target_name>
+
+<type>Access Control</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>00dae76b53a62010bb519955bcb1d3d0</update_guid>
+
+<update_guid_history>00dae76b53a62010bb519955bcb1d3d0:-289482545</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_section_011b2b6bdba6201048a17405e296199d</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="011b2b6bdba6201048a17405e296199d" sys_domain="global" table="x_snc_hr_automatio_active_listing" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_snc_hr_automatio_active_listing</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:03:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>011b2b6bdba6201048a17405e296199d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_ui_section_011b2b6bdba6201048a17405e296199d</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:03:32</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]>
+</payload>
+
+<payload_hash>-1704312245</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>1c37b4aa1b6364107761ddbddc4bcbae</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fae615ec0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>Active Listing</target_name>
+
+<type>Form Layout</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>3a91c8b7a5e62010c54fbbc0432d4580</update_guid>
+
+<update_guid_history>3a91c8b7a5e62010c54fbbc0432d4580:-1704312245,811b2b6bfda62010f19850ab26477f9f:-1704312245</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_dictionary_x_snc_hr_automatio_active_listing_null</name>
+
+<payload><?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_snc_hr_automatio_active_listing"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation><![CDATA[(function calculatedFieldValue(current) {// Add your code herereturn ''; // return the calculated value })(current);]]></calculation><choice/><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_hr_automatio_active_listing</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_id>4cdae76bdba6201048a17405e29619d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_dictionary_x_snc_hr_automatio_active_listing_null</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update></payload>
+
+<payload_hash>1531815731</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>503734aa1b6364107761ddbddc4bcb52</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8aecec0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>Active Listing</target_name>
+
+<type>Dictionary</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>54dae76b65a62010747d32a737e070f0</update_guid>
+
+<update_guid_history>54dae76b65a62010747d32a737e070f0:1531815731</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_documentation_x_snc_hr_automatio_department_table_name_en</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="name" label="Name" language="en" table="x_snc_hr_automatio_department_table"><sys_documentation action="INSERT_OR_UPDATE"><element>name</element><help/><hint/><label>Name</label><language>en</language><name>x_snc_hr_automatio_department_table</name><plural>Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 04:15:39</sys_created_on><sys_id>448171d21b3ea4107761ddbddc4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_documentation_x_snc_hr_automatio_department_table_name_en</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 04:15:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]>
+</payload>
+
+<payload_hash>1017709706</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>503734aa1b6364107761ddbddc4bcb55</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>17824a5ab880000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_department_table</table>
+
+<target_name>Department Table.Name</target_name>
+
+<type>Field Label</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>988171d27d3ea4100da92f7a90d72f14</update_guid>
+
+<update_guid_history>988171d27d3ea4100da92f7a90d72f14:1017709706</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_role_8cdae76bdba6201048a17405e29619d6</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_id>8cdae76bdba6201048a17405e29619d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing.x_snc_hr_automatio.active_listing_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_security_acl display_value="x_snc_hr_automatio_active_listing">ccdae76bdba6201048a17405e29619d3</sys_security_acl><sys_update_name>sys_security_acl_role_8cdae76bdba6201048a17405e29619d6</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><sys_user_role display_value="x_snc_hr_automatio.active_listing_user" name="x_snc_hr_automatio.active_listing_user">b7caa76bdba6201048a17405e2961913</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]>
+</payload>
+
+<payload_hash>-233958099</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>503734aa1b6364107761ddbddc4bcb58</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8aea5d0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>x_snc_hr_automatio_active_listing.x_snc_hr_automatio.active_listing_user</target_name>
+
+<type>Access Roles</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>40dae76b0ba62010b80fd3d54e5adcd9</update_guid>
+
+<update_guid_history>40dae76b0ba62010b80fd3d54e5adcd9:-233958099</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_app_module_44dae76bdba6201048a17405e29619a0</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Active Listing">77caa76bdba6201048a17405e296191b</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Active Listings</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_hr_automatio_active_listing</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_hr_automatio.active_listing_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>44dae76bdba6201048a17405e29619a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listings</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_app_module_44dae76bdba6201048a17405e29619a0</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><timeline_page/><title>Active Listings</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]>
+</payload>
+
+<payload_hash>855881708</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>543734aa1b6364107761ddbddc4bcb51</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8ae79e0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>Active Listings</target_name>
+
+<type>Module</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>c0dae76be4a620101aa72327cb9fa5a2</update_guid>
+
+<update_guid_history>c0dae76be4a620101aa72327cb9fa5a2:855881708</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_documentation_x_snc_hr_automatio_active_listing_table_position_en</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="position" label="Position" language="en" table="x_snc_hr_automatio_active_listing_table"><sys_documentation action="INSERT_OR_UPDATE"><element>position</element><help/><hint/><label>Position</label><language>en</language><name>x_snc_hr_automatio_active_listing_table</name><plural>Positions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:27:28</sys_created_on><sys_id>af80376fdba6201048a17405e2961957</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Position</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_documentation_x_snc_hr_automatio_active_listing_table_position_en</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:27:28</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]>
+</payload>
+
+<payload_hash>-1460233114</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>543734aa1b6364107761ddbddc4bcb54</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177faa1e3d30000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table.Position</target_name>
+
+<type>Field Label</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>3f80376fb3a62010b156d54f152cd65f</update_guid>
+
+<update_guid_history>3f80376fb3a62010b156d54f152cd65f:-1460233114</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_role_316da3ebdba6201048a17405e2961904</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>316da3ebdba6201048a17405e2961904</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table.x_snc_hr_automatio.active_listing_table_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_security_acl display_value="x_snc_hr_automatio_active_listing_table">716da3ebdba6201048a17405e2961901</sys_security_acl><sys_update_name>sys_security_acl_role_316da3ebdba6201048a17405e2961904</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><sys_user_role display_value="x_snc_hr_automatio.active_listing_table_user" name="x_snc_hr_automatio.active_listing_table_user">696d6fabdba6201048a17405e2961946</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]>
+</payload>
+
+<payload_hash>-1796053351</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>543734aa1b6364107761ddbddc4bcb57</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9544a40000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>x_snc_hr_automatio_active_listing_table.x_snc_hr_automatio.active_listing_table_user</target_name>
+
+<type>Access Roles</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>f16da3eb79a6201075a41d641eb12206</update_guid>
+
+<update_guid_history>f16da3eb79a6201075a41d641eb12206:-1796053351</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_section_891179921b3ea4107761ddbddc4bcb9f</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="891179921b3ea4107761ddbddc4bcb9f" sys_domain="global" table="x_snc_hr_automatio_department_table" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>0</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 05:05:00</sys_created_on><sys_id>0fccb11e1b3ea4107761ddbddc4bcb2f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_hr_automatio_department_table" sys_domain="global" view="Default view">891179921b3ea4107761ddbddc4bcb9f</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 05:05:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>job_id</element><position>1</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 05:05:00</sys_created_on><sys_id>8fccb11e1b3ea4107761ddbddc4bcb2f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_hr_automatio_department_table" sys_domain="global" view="Default view">891179921b3ea4107761ddbddc4bcb9f</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 05:05:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>job_description</element><position>2</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 05:05:00</sys_created_on><sys_id>03ccb11e1b3ea4107761ddbddc4bcb30</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_hr_automatio_department_table" sys_domain="global" view="Default view">891179921b3ea4107761ddbddc4bcb9f</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 05:05:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 05:05:00</sys_created_on><sys_id>83ccb11e1b3ea4107761ddbddc4bcb30</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_hr_automatio_department_table" sys_domain="global" view="Default view">891179921b3ea4107761ddbddc4bcb9f</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 05:05:00</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_snc_hr_automatio_department_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 04:13:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>891179921b3ea4107761ddbddc4bcb9f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_department_table</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_ui_section_891179921b3ea4107761ddbddc4bcb9f</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 04:13:48</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]>
+</payload>
+
+<payload_hash>-1390715561</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>5437b4aa1b6364107761ddbddc4bcbaf</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>17824d2d6600000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_department_table</table>
+
+<target_name>Department Table</target_name>
+
+<type>Form Layout</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>0bccb11e253ea4103534bac2e77f2e31</update_guid>
+
+<update_guid_history>0bccb11e253ea4103534bac2e77f2e31:-1390715561,088171d2ab3ea410cd9e9d5e8c09c009:-890707743,011179924b3ea41054772cb9791d36a8:-93611485,85117992843ea4108a661f6c9ea37da2:-1269541781</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_app_46d9dbafdb66201048a17405e2961923</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>none</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><installed_as_dependency>false</installed_as_dependency><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>HR Automation</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_snc_hr_automatio</scope><scoped_administration>false</scoped_administration><short_description/><source>x_snc_hr_automatio</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-03 22:48:14</sys_created_on><sys_id>46d9dbafdb66201048a17405e2961923</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-03 22:48:14</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]>
+</payload>
+
+<payload_hash>1458793534</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>583734aa1b6364107761ddbddc4bcb50</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa4707e60000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>HR Automation</target_name>
+
+<type>Custom Application</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>c2d91faf3c66201084d4c3b1814ba977</update_guid>
+
+<update_guid_history>c2d91faf3c66201084d4c3b1814ba977:1458793534</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_dictionary_x_snc_hr_automatio_department_table_name</name>
+
+<payload><?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="name" table="x_snc_hr_automatio_department_table"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation><![CDATA[(function calculatedFieldValue(current) {// Add your code herereturn ''; // return the calculated value })(current);]]></calculation><choice/><choice_field/><choice_table/><column_label>Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_snc_hr_automatio_department_table</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-12 04:15:39</sys_created_on><sys_id>0f51bd921b3ea4107761ddbddc4bcb68</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_dictionary_x_snc_hr_automatio_department_table_name</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 04:15:39</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update></payload>
+
+<payload_hash>699375121</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>583734aa1b6364107761ddbddc4bcb53</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>17824a5ab560000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_department_table</table>
+
+<target_name>Department Table.Name</target_name>
+
+<type>Dictionary</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>108171d2e23ea410d3d9fbaab6a11c13</update_guid>
+
+<update_guid_history>108171d2e23ea410d3d9fbaab6a11c13:699375121</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_ccdae76bdba6201048a17405e29619c7</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_hr_automatio_active_listing</description><name>x_snc_hr_automatio_active_listing</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_id>ccdae76bdba6201048a17405e29619c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_security_acl_ccdae76bdba6201048a17405e29619c7</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]>
+</payload>
+
+<payload_hash>414724491</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>583734aa1b6364107761ddbddc4bcb56</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8ae9590000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>x_snc_hr_automatio_active_listing</target_name>
+
+<type>Access Control</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>00dae76b7fa620102f5a617b5f0d27ca</update_guid>
+
+<update_guid_history>00dae76b7fa620102f5a617b5f0d27ca:414724491</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_module_c7e953391b7aa01017928733cc4bcb42</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HR Automation">848ff6751b3aa01017928733cc4bcb4f</application><filter/><name>Department</name><order>30</order><path>false</path><path_relative_to_root>false</path_relative_to_root><roles>x_snc_hr_automatio.department_table_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>hvl5469</sys_created_by><sys_created_on>2021-03-10 22:34:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c7e953391b7aa01017928733cc4bcb42</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Department</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_ui_module_c7e953391b7aa01017928733cc4bcb42</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 04:53:57</sys_updated_on><table>x_snc_hr_automatio_department_table</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]>
+</payload>
+
+<payload_hash>-116077797</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>5837b4aa1b6364107761ddbddc4bcbae</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>17824c8b9990000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_department_table</table>
+
+<target_name>Department</target_name>
+
+<type>Module</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>014a7d5a8a3ea410cf6f84efb2a8e994</update_guid>
+
+<update_guid_history>014a7d5a8a3ea410cf6f84efb2a8e994:-116077797,d92a7d5ad23ea410eef68cd40aa75580:-1700911924,2bd93d5a2a3ea410ffc61535b6e71476:-379280520,8be95339487aa0101933449d807ce343:-1981243031</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_dictionary_x_snc_hr_automatio_active_listing_table_null</name>
+
+<payload><?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_snc_hr_automatio_active_listing_table"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation><![CDATA[(function calculatedFieldValue(current) {// Add your code herereturn ''; // return the calculated value })(current);]]></calculation><choice/><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_hr_automatio_active_listing_table</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>fd6da3ebdba6201048a17405e296190c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_dictionary_x_snc_hr_automatio_active_listing_table_null</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update></payload>
+
+<payload_hash>281611044</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>5c3734aa1b6364107761ddbddc4bcb52</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9547130000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table</target_name>
+
+<type>Dictionary</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>ca6da3eba4a620104110b57740070522</update_guid>
+
+<update_guid_history>ca6da3eba4a620104110b57740070522:281611044,d539672bd5a620104b9d07dc564011cd:1509562608,4d98afe74da62010d68747e6617e5b20:281611044</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_716da3ebdba6201048a17405e2961901</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_hr_automatio_active_listing_table</description><name>x_snc_hr_automatio_active_listing_table</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>716da3ebdba6201048a17405e2961901</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_security_acl_716da3ebdba6201048a17405e2961901</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]>
+</payload>
+
+<payload_hash>-753566402</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>5c3734aa1b6364107761ddbddc4bcb55</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9544800000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>x_snc_hr_automatio_active_listing_table</target_name>
+
+<type>Access Control</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>b16da3ebc8a62010aae2b68b8bb50603</update_guid>
+
+<update_guid_history>b16da3ebc8a62010aae2b68b8bb50603:-753566402</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_application_c0dae76bdba6201048a17405e29619a3</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Active Listing</name><order/><roles>x_snc_hr_automatio.active_listing_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c0dae76bdba6201048a17405e29619a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_ui_application_c0dae76bdba6201048a17405e29619a3</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on></sys_ui_application></record_update>]]>
+</payload>
+
+<payload_hash>-1282396511</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>5c37b4aa1b6364107761ddbddc4bcbad</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8ae8040000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>Active Listing</target_name>
+
+<type>Application Menu</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>48dae76b1ea6201012b8d29b1db783a4</update_guid>
+
+<update_guid_history>48dae76b1ea6201012b8d29b1db783a4:-1282396511</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_app_module_356d63ebdba6201048a17405e29619ee</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Active Listing Table">3d6d63ebdba6201048a17405e29619eb</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Active Listing Tables</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_hr_automatio_active_listing_table</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_hr_automatio.active_listing_table_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>356d63ebdba6201048a17405e29619ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing Tables</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_app_module_356d63ebdba6201048a17405e29619ee</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><timeline_page/><title>Active Listing Tables</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]>
+</payload>
+
+<payload_hash>1898461803</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>903734aa1b6364107761ddbddc4bcb51</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9543250000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Tables</target_name>
+
+<type>Module</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>7d6d63ebdda62010360c5fff8cb0c7ef</update_guid>
+
+<update_guid_history>7d6d63ebdda62010360c5fff8cb0c7ef:1898461803</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_documentation_x_snc_hr_automatio_active_listing_table_job_id_en</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="job_id" label="Job ID" language="en" table="x_snc_hr_automatio_active_listing_table"><sys_documentation action="INSERT_OR_UPDATE"><element>job_id</element><help/><hint/><label>Job ID</label><language>en</language><name>x_snc_hr_automatio_active_listing_table</name><plural>Job IDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:23:37</sys_created_on><sys_id>cbaf6b2fdba6201048a17405e29619ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Job ID</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_documentation_x_snc_hr_automatio_active_listing_table_job_id_en</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:23:37</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]>
+</payload>
+
+<payload_hash>600890736</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>903734aa1b6364107761ddbddc4bcb54</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9e58230000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table.Job ID</target_name>
+
+<type>Field Label</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>8faf6b2f2ea6201014e36030c4e8dff2</update_guid>
+
+<update_guid_history>8faf6b2f2ea6201014e36030c4e8dff2:600890736</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_role_316d63ebdba6201048a17405e29619fe</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>316d63ebdba6201048a17405e29619fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table.x_snc_hr_automatio.active_listing_table_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_security_acl display_value="x_snc_hr_automatio_active_listing_table">716d63ebdba6201048a17405e29619fb</sys_security_acl><sys_update_name>sys_security_acl_role_316d63ebdba6201048a17405e29619fe</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><sys_user_role display_value="x_snc_hr_automatio.active_listing_table_user" name="x_snc_hr_automatio.active_listing_table_user">696d6fabdba6201048a17405e2961946</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]>
+</payload>
+
+<payload_hash>871973727</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>903734aa1b6364107761ddbddc4bcb57</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa95445e0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>x_snc_hr_automatio_active_listing_table.x_snc_hr_automatio.active_listing_table_user</target_name>
+
+<type>Access Roles</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>f16da3eb72a620100ab7a3be8a509600</update_guid>
+
+<update_guid_history>f16da3eb72a620100ab7a3be8a509600:871973727</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_section_2e0e2bebdba6201048a17405e2961939</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="2e0e2bebdba6201048a17405e2961939" sys_domain="global" table="x_snc_hr_automatio_active_listing_table" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>job_id</element><position>1</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:23:36</sys_created_on><sys_id>8baf6b2fdba6201048a17405e29619e8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_hr_automatio_active_listing_table" sys_domain="global" view="Default view">2e0e2bebdba6201048a17405e2961939</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:23:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>position</element><position>2</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:27:28</sys_created_on><sys_id>2f80b36fdba6201048a17405e2961900</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_hr_automatio_active_listing_table" sys_domain="global" view="Default view">2e0e2bebdba6201048a17405e2961939</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:27:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>3</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:28:12</sys_created_on><sys_id>ceb0f76fdba6201048a17405e2961904</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_hr_automatio_active_listing_table" sys_domain="global" view="Default view">2e0e2bebdba6201048a17405e2961939</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:28:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>department</element><position>4</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:28:40</sys_created_on><sys_id>89d07b6fdba6201048a17405e2961928</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_hr_automatio_active_listing_table" sys_domain="global" view="Default view">2e0e2bebdba6201048a17405e2961939</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:28:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_snc_hr_automatio_active_listing_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:16:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2e0e2bebdba6201048a17405e2961939</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_ui_section_2e0e2bebdba6201048a17405e2961939</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:16:28</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]>
+</payload>
+
+<payload_hash>1994332194</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>9037b4aa1b6364107761ddbddc4bcbaf</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177faa2f8510000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table</target_name>
+
+<type>Form Layout</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>41d07b6fdda620106d2d2dbc04d71e2a</update_guid>
+
+<update_guid_history>41d07b6fdda620106d2d2dbc04d71e2a:1994332194,46b0f76f95a62010f21a3792f7076406:-849770996,6380b36f0da620106d536e99e8971902:2114584777,8faf6b2fa6a620103d4fd57bc4d078e9:1436543038,ae0e2beb8fa6201091a3b89f4af4f23b:-71344354</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_dictionary_x_snc_hr_automatio_department_table_job_id</name>
+
+<payload><?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="job_id" table="x_snc_hr_automatio_department_table"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation><![CDATA[(function calculatedFieldValue(current) {// Add your code herereturn ''; // return the calculated value })(current);]]></calculation><choice/><choice_field/><choice_table/><column_label>ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>job_id</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>10</max_length><name>x_snc_hr_automatio_department_table</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>hvl5469</sys_created_by><sys_created_on>2021-03-10 22:35:37</sys_created_on><sys_id>e20ad3391b7aa01017928733cc4bcbde</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ID</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_dictionary_x_snc_hr_automatio_department_table_job_id</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 04:24:39</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update></payload>
+
+<payload_hash>-1730458409</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>943734aa1b6364107761ddbddc4bcb53</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>17824ade7410000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_department_table</table>
+
+<target_name>Department Table.ID</target_name>
+
+<type>Dictionary</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>cc93f916963ea410e91dc0a71053a483</update_guid>
+
+<update_guid_history>cc93f916963ea410e91dc0a71053a483:-1730458409,6d1a1739cc7aa010a9b8850611154941:1632222429</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_8cdae76bdba6201048a17405e29619a7</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_hr_automatio_active_listing</description><name>x_snc_hr_automatio_active_listing</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_id>8cdae76bdba6201048a17405e29619a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_security_acl_8cdae76bdba6201048a17405e29619a7</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]>
+</payload>
+
+<payload_hash>2127054271</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>943734aa1b6364107761ddbddc4bcb56</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8ae8c90000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>x_snc_hr_automatio_active_listing</target_name>
+
+<type>Access Control</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>08dae76bbaa62010ca094f6543ee39c3</update_guid>
+
+<update_guid_history>08dae76bbaa62010ca094f6543ee39c3:2127054271</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_module_c4dae76bdba6201048a17405e29619a5</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Active Listing">c0dae76bdba6201048a17405e29619a3</application><filter/><name>Active Listings</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_hr_automatio.active_listing_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c4dae76bdba6201048a17405e29619a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listings</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_ui_module_c4dae76bdba6201048a17405e29619a5</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><table>x_snc_hr_automatio_active_listing</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]>
+</payload>
+
+<payload_hash>25232351</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>9437b4aa1b6364107761ddbddc4bcbae</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8ae8600000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>Active Listings</target_name>
+
+<type>Module</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>8cdae76bb1a6201047cfe13af95242a6</update_guid>
+
+<update_guid_history>8cdae76bb1a6201047cfe13af95242a6:25232351</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_dictionary_x_snc_hr_automatio_active_listing_table_job_id</name>
+
+<payload><?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="job_id" table="x_snc_hr_automatio_active_listing_table"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation><![CDATA[(function calculatedFieldValue(current) {// Add your code herereturn ''; // return the calculated value })(current);]]></calculation><choice/><choice_field/><choice_table/><column_label>Job ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>job_id</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>10</max_length><name>x_snc_hr_automatio_active_listing_table</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:23:36</sys_created_on><sys_id>752fe32fdba6201048a17405e296198b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Job ID</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_dictionary_x_snc_hr_automatio_active_listing_table_job_id</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:23:36</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update></payload>
+
+<payload_hash>1920044029</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>983734aa1b6364107761ddbddc4bcb52</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9e57f90000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table.Job ID</target_name>
+
+<type>Dictionary</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>0baf6b2ffaa620100b04639a511bb9f1</update_guid>
+
+<update_guid_history>0baf6b2ffaa620100b04639a511bb9f1:1920044029</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_716d63ebdba6201048a17405e29619fb</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_hr_automatio_active_listing_table</description><name>x_snc_hr_automatio_active_listing_table</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>716d63ebdba6201048a17405e29619fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_security_acl_716d63ebdba6201048a17405e29619fb</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]>
+</payload>
+
+<payload_hash>1094230266</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>983734aa1b6364107761ddbddc4bcb55</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9544320000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>x_snc_hr_automatio_active_listing_table</target_name>
+
+<type>Access Control</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>b16d63ebcfa62010f5cde389454decfd</update_guid>
+
+<update_guid_history>b16d63ebcfa62010f5cde389454decfd:1094230266</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_application_3d6d63ebdba6201048a17405e29619f0</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Active Listing Table</name><order/><roles>x_snc_hr_automatio.active_listing_table_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3d6d63ebdba6201048a17405e29619f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing Table</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_ui_application_3d6d63ebdba6201048a17405e29619f0</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on></sys_ui_application></record_update>]]>
+</payload>
+
+<payload_hash>1359149966</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>9837b4aa1b6364107761ddbddc4bcbad</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9543470000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>Active Listing Table</target_name>
+
+<type>Application Menu</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>fd6d63eb5fa62010305cb059256144f1</update_guid>
+
+<update_guid_history>fd6d63eb5fa62010305cb059256144f1:1359149966</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_db_object_e6baa76bdba6201048a17405e296191d</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Active Listing</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_hr_automatio_active_listing</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:22</sys_created_on><sys_id>e6baa76bdba6201048a17405e296191d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_db_object_e6baa76bdba6201048a17405e296191d</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:22</sys_updated_on><update_access>false</update_access><user_role display_value="x_snc_hr_automatio.active_listing_user" name="x_snc_hr_automatio.active_listing_user">b7caa76bdba6201048a17405e2961913</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]>
+</payload>
+
+<payload_hash>-428109917</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>9c3734aa1b6364107761ddbddc4bcb51</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8aed1f0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>Active Listing</target_name>
+
+<type>Table</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>dcdae76bfba62010db51eb9ae33052f2</update_guid>
+
+<update_guid_history>dcdae76bfba62010db51eb9ae33052f2:-428109917</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_documentation_x_snc_hr_automatio_department_table_job_id_en</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="job_id" label="ID" language="en" table="x_snc_hr_automatio_department_table"><sys_documentation action="INSERT_OR_UPDATE"><element>job_id</element><help/><hint/><label>ID</label><language>en</language><name>x_snc_hr_automatio_department_table</name><plural>IDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>hvl5469</sys_created_by><sys_created_on>2021-03-10 22:35:38</sys_created_on><sys_id>291a93391b7aa01017928733cc4bcb62</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ID</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_documentation_x_snc_hr_automatio_department_table_job_id_en</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 04:24:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]>
+</payload>
+
+<payload_hash>-437071510</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>9c3734aa1b6364107761ddbddc4bcb54</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>17824ade7140000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_department_table</table>
+
+<target_name>Department Table.ID</target_name>
+
+<type>Field Label</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>0493f916b13ea410faf87db665ed1b82</update_guid>
+
+<update_guid_history>0493f916b13ea410faf87db665ed1b82:-437071510,e11a1739fa7aa010cbeee5cc2956ec43:-316101296</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_role_8cdae76bdba6201048a17405e29619d0</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_id>8cdae76bdba6201048a17405e29619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing.x_snc_hr_automatio.active_listing_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_security_acl display_value="x_snc_hr_automatio_active_listing">ccdae76bdba6201048a17405e29619cd</sys_security_acl><sys_update_name>sys_security_acl_role_8cdae76bdba6201048a17405e29619d0</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><sys_user_role display_value="x_snc_hr_automatio.active_listing_user" name="x_snc_hr_automatio.active_listing_user">b7caa76bdba6201048a17405e2961913</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]>
+</payload>
+
+<payload_hash>465451327</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>9c3734aa1b6364107761ddbddc4bcb57</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8aea080000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>x_snc_hr_automatio_active_listing.x_snc_hr_automatio.active_listing_user</target_name>
+
+<type>Access Roles</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>40dae76b2da6201070889d56243020d3</update_guid>
+
+<update_guid_history>40dae76b2da6201070889d56243020d3:465451327</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_user_role_b7caa76bdba6201048a17405e2961913</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_snc_hr_automatio.active_listing_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>active_listing_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:22</sys_created_on><sys_id>b7caa76bdba6201048a17405e2961913</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio.active_listing_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_user_role_b7caa76bdba6201048a17405e2961913</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:22</sys_updated_on></sys_user_role></record_update>]]>
+</payload>
+
+<payload_hash>-1567454419</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>9c37b4aa1b6364107761ddbddc4bcbaf</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8ae5580000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>x_snc_hr_automatio.active_listing_user</target_name>
+
+<type>Role</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>f7caa76b63a6201007315e8265748017</update_guid>
+
+<update_guid_history>f7caa76b63a6201007315e8265748017:-1567454419</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_dictionary_x_snc_hr_automatio_department_table_job_description</name>
+
+<payload><?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="job_description" table="x_snc_hr_automatio_department_table"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation><![CDATA[(function calculatedFieldValue(current) {// Add your code herereturn ''; // return the calculated value })(current);]]></calculation><choice/><choice_field/><choice_table/><column_label>Job Description</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>job_description</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>500</max_length><name>x_snc_hr_automatio_department_table</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>hvl5469</sys_created_by><sys_created_on>2021-03-10 22:38:13</sys_created_on><sys_id>ce3a97391b7aa01017928733cc4bcbf4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Job Description</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_dictionary_x_snc_hr_automatio_department_table_job_description</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-12 05:04:59</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update></payload>
+
+<payload_hash>-972814381</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d03734aa1b6364107761ddbddc4bcb53</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>17824d2d51e0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_department_table</table>
+
+<target_name>Department Table.Job Description</target_name>
+
+<type>Dictionary</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>7accb11e3b3ea410a5f2fbecba10032a</update_guid>
+
+<update_guid_history>7accb11e3b3ea410a5f2fbecba10032a:-972814381,27aadb39de7aa0108d8008cb9415090d:-1833363620</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_7d6d63ebdba6201048a17405e29619f4</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_hr_automatio_active_listing_table</description><name>x_snc_hr_automatio_active_listing_table</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_id>7d6d63ebdba6201048a17405e29619f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing_table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_security_acl_7d6d63ebdba6201048a17405e29619f4</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]>
+</payload>
+
+<payload_hash>1219440174</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d03734aa1b6364107761ddbddc4bcb56</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9543b60000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>x_snc_hr_automatio_active_listing_table</target_name>
+
+<type>Access Control</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>316d63eb81a6201041fa120b6a67d3f7</update_guid>
+
+<update_guid_history>316d63eb81a6201041fa120b6a67d3f7:1219440174</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_module_3d6d63ebdba6201048a17405e29619f2</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Active Listing Table">3d6d63ebdba6201048a17405e29619f0</application><filter/><name>Active Listing Tables</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_hr_automatio.active_listing_table_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3d6d63ebdba6201048a17405e29619f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing Tables</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_ui_module_3d6d63ebdba6201048a17405e29619f2</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:42</sys_updated_on><table>x_snc_hr_automatio_active_listing_table</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]>
+</payload>
+
+<payload_hash>829123060</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d037b4aa1b6364107761ddbddc4bcbae</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9543680000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Tables</target_name>
+
+<type>Module</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>bd6d63eb1fa62010990fd38c00d5caf3</update_guid>
+
+<update_guid_history>bd6d63eb1fa62010990fd38c00d5caf3:829123060</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_dictionary_x_snc_hr_automatio_active_listing_table_description</name>
+
+<payload><?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="description" table="x_snc_hr_automatio_active_listing_table"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation><![CDATA[(function calculatedFieldValue(current) {// Add your code herereturn ''; // return the calculated value })(current);]]></calculation><choice/><choice_field/><choice_table/><column_label>Description</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>description</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>50</max_length><name>x_snc_hr_automatio_active_listing_table</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:28:12</sys_created_on><sys_id>68a0776fdba6201048a17405e29619b2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Description</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_dictionary_x_snc_hr_automatio_active_listing_table_description</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:30:53</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update></payload>
+
+<payload_hash>-2059767340</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d43734aa1b6364107761ddbddc4bcb52</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177faa503420000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table.Description</target_name>
+
+<type>Dictionary</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>f151ff6f7ca620104715b6a0ac9aa3f1</update_guid>
+
+<update_guid_history>f151ff6f7ca620104715b6a0ac9aa3f1:-2059767340,9ab0f76f23a62010f256f8a89204630d:-863129282</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>DELETE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_metadata_delete_0898c4641d3c4fb585a8b6c22a8235e1</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_delete"><sys_metadata_delete action="DELETE"><sys_audit_delete/><sys_class_name>sys_metadata_delete</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-03 23:55:20</sys_created_on><sys_db_object display_value="" name="sys_documentation">sys_documentation</sys_db_object><sys_id>0898c4641d3c4fb585a8b6c22a8235e1</sys_id><sys_metadata>3498afe7dba6201048a17405e296190f</sys_metadata><sys_mod_count>0</sys_mod_count><sys_name>Active Listing Table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_parent display_value="">3c98afe7dba6201048a17405e2961905</sys_parent><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_scope_delete display_value="">344c5832e6ed4f7689566ac1533b03f9</sys_scope_delete><sys_update_name>sys_documentation_x_snc_hr_automatio_active_listing_table__en</sys_update_name><sys_update_version display_value="sys_documentation_x_snc_hr_automatio_active_listing_table__en">8998afe7dba6201048a17405e2961922</sys_update_version><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-03 23:55:20</sys_updated_on></sys_metadata_delete></record_update>]]>
+</payload>
+
+<payload_hash>1268535675</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d43734aa1b6364107761ddbddc4bcb55</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa95499c0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>Active Listing Table</target_name>
+
+<type>Deleted Application File</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>4e6da3eb80a620108393200aae94052e</update_guid>
+
+<update_guid_history>4e6da3eb80a620108393200aae94052e:1268535675</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_role_c4dae76bdba6201048a17405e29619c4</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_id>c4dae76bdba6201048a17405e29619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing.x_snc_hr_automatio.active_listing_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_security_acl display_value="x_snc_hr_automatio_active_listing">8cdae76bdba6201048a17405e29619a7</sys_security_acl><sys_update_name>sys_security_acl_role_c4dae76bdba6201048a17405e29619c4</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><sys_user_role display_value="x_snc_hr_automatio.active_listing_user" name="x_snc_hr_automatio.active_listing_user">b7caa76bdba6201048a17405e2961913</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]>
+</payload>
+
+<payload_hash>19775071</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d437b4aa1b6364107761ddbddc4bcbad</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8ae91a0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>x_snc_hr_automatio_active_listing.x_snc_hr_automatio.active_listing_user</target_name>
+
+<type>Access Roles</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>00dae76b18a620103cc91d86582a49c7</update_guid>
+
+<update_guid_history>00dae76b18a620103cc91d86582a49c7:19775071</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_db_object_932d6fabdba6201048a17405e2961940</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Active Listing Table</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_hr_automatio_active_listing_table</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:13:41</sys_created_on><sys_id>932d6fabdba6201048a17405e2961940</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing Table</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_db_object_932d6fabdba6201048a17405e2961940</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:13:41</sys_updated_on><update_access>false</update_access><user_role display_value="x_snc_hr_automatio.active_listing_table_user" name="x_snc_hr_automatio.active_listing_table_user">696d6fabdba6201048a17405e2961946</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]>
+</payload>
+
+<payload_hash>-1917277853</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d83734aa1b6364107761ddbddc4bcb51</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa9549c50000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table</target_name>
+
+<type>Table</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>8a6da3ebcba6201074c38382182fa34a</update_guid>
+
+<update_guid_history>8a6da3ebcba6201074c38382182fa34a:-1917277853</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_documentation_x_snc_hr_automatio_active_listing__en</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Active Listing" language="en" table="x_snc_hr_automatio_active_listing"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Active Listing</label><language>en</language><name>x_snc_hr_automatio_active_listing</name><plural>Active Listings</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:24</sys_created_on><sys_id>18dae76bdba6201048a17405e29619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_documentation_x_snc_hr_automatio_active_listing__en</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:24</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]>
+</payload>
+
+<payload_hash>679282390</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d83734aa1b6364107761ddbddc4bcb54</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8aed070000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>Active Listing</target_name>
+
+<type>Field Label</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>98dae76bafa62010700c79635a5088f1</update_guid>
+
+<update_guid_history>98dae76bafa62010700c79635a5088f1:679282390</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_role_8cdae76bdba6201048a17405e29619ca</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_id>8cdae76bdba6201048a17405e29619ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing.x_snc_hr_automatio.active_listing_user</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_security_acl display_value="x_snc_hr_automatio_active_listing">ccdae76bdba6201048a17405e29619c7</sys_security_acl><sys_update_name>sys_security_acl_role_8cdae76bdba6201048a17405e29619ca</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><sys_user_role display_value="x_snc_hr_automatio.active_listing_user" name="x_snc_hr_automatio.active_listing_user">b7caa76bdba6201048a17405e2961913</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]>
+</payload>
+
+<payload_hash>-1283072238</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d83734aa1b6364107761ddbddc4bcb57</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8ae9aa0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>x_snc_hr_automatio_active_listing.x_snc_hr_automatio.active_listing_user</target_name>
+
+<type>Access Roles</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>40dae76bcda620101b1f26a7bbdabbcd</update_guid>
+
+<update_guid_history>40dae76bcda620101b1f26a7bbdabbcd:-1283072238</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_user_role_9fe99b6fdb66201048a17405e29619d6</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_snc_hr_automatio.hr_automation</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>x_snc_hr_automatio.hr_automation</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-03 22:48:36</sys_created_on><sys_id>9fe99b6fdb66201048a17405e29619d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio.hr_automation</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_user_role_9fe99b6fdb66201048a17405e29619d6</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-03 22:48:36</sys_updated_on></sys_user_role></record_update>]]>
+</payload>
+
+<payload_hash>1844453352</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>d837b4aa1b6364107761ddbddc4bcbaf</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa475c510000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>x_snc_hr_automatio.hr_automation</target_name>
+
+<type>Role</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>dbe99b6f03662010433e65a29e95bbdb</update_guid>
+
+<update_guid_history>dbe99b6f03662010433e65a29e95bbdb:1844453352</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>DELETE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_app_application_77caa76bdba6201048a17405e296191b</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="DELETE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Active Listing</name><order>100</order><roles>x_snc_hr_automatio.active_listing_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>77caa76bdba6201048a17405e296191b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Listing</sys_name><sys_overrides/><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_app_application_77caa76bdba6201048a17405e296191b</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:22</sys_updated_on><title>Active Listing</title><view_name/></sys_app_application></record_update>]]>
+</payload>
+
+<payload_hash>1268486683</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>dc3734aa1b6364107761ddbddc4bcb50</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>1780e82f1710000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table/>
+
+<target_name>Active Listing</target_name>
+
+<type>Application Menu</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>a4d8a7f42d7aa010cb023ba3abe3fdc6</update_guid>
+
+<update_guid_history>a4d8a7f42d7aa010cb023ba3abe3fdc6:1268486683,c4dae76b67a6201001a82d1a7f44299f:1713454607</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_documentation_x_snc_hr_automatio_active_listing_table_description_en</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="description" label="Description" language="en" table="x_snc_hr_automatio_active_listing_table"><sys_documentation action="INSERT_OR_UPDATE"><element>description</element><help/><hint/><label>Description</label><language>en</language><name>x_snc_hr_automatio_active_listing_table</name><plural>Descriptions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:28:12</sys_created_on><sys_id>82b0f76fdba6201048a17405e2961907</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Description</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_documentation_x_snc_hr_automatio_active_listing_table_description_en</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:28:12</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]>
+</payload>
+
+<payload_hash>-29819832</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>dc3734aa1b6364107761ddbddc4bcb53</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177faa28c5f0000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing_table</table>
+
+<target_name>Active Listing Table.Description</target_name>
+
+<type>Field Label</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>12b0f76f0ba6201012990c983e35ef0f</update_guid>
+
+<update_guid_history>12b0f76f0ba6201012990c983e35ef0f:-29819832</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_security_acl_ccdae76bdba6201048a17405e29619d3</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_hr_automatio_active_listing</description><name>x_snc_hr_automatio_active_listing</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:23</sys_created_on><sys_id>ccdae76bdba6201048a17405e29619d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_hr_automatio_active_listing</sys_name><sys_package display_value="HR Automation" source="x_snc_hr_automatio">46d9dbafdb66201048a17405e2961923</sys_package><sys_policy/><sys_scope display_value="HR Automation">46d9dbafdb66201048a17405e2961923</sys_scope><sys_update_name>sys_security_acl_ccdae76bdba6201048a17405e29619d3</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:23</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]>
+</payload>
+
+<payload_hash>-1523921759</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>dc3734aa1b6364107761ddbddc4bcb56</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8aea300000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>x_snc_hr_automatio_active_listing</table>
+
+<target_name>x_snc_hr_automatio_active_listing</target_name>
+
+<type>Access Control</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>00dae76b8da62010fce25825c5e585d6</update_guid>
+
+<update_guid_history>00dae76b8da62010fce25825c5e585d6:-1523921759</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+
+-<sys_update_xml action="INSERT_OR_UPDATE">
+
+<action>INSERT_OR_UPDATE</action>
+
+<application display_value="Global">global</application>
+
+<category>customer</category>
+
+<comments/>
+
+<name>sys_ui_section_1fea2b6bdba6201048a17405e29619e3</name>
+
+
+-<payload>
+
+-<![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="1fea2b6bdba6201048a17405e29619e3" sys_domain="global" table="v_index_creator" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>index_name</element><position>0</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:53</sys_created_on><sys_id>57ea2b6bdba6201048a17405e29619eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="v_index_creator" sys_domain="global" view="Default view">1fea2b6bdba6201048a17405e29619e3</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>slow_query</element><position>1</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:53</sys_created_on><sys_id>6fea2b6bdba6201048a17405e29619eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="v_index_creator" sys_domain="global" view="Default view">1fea2b6bdba6201048a17405e29619e3</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>logical_table_name</element><position>2</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:53</sys_created_on><sys_id>efea2b6bdba6201048a17405e29619eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="v_index_creator" sys_domain="global" view="Default view">1fea2b6bdba6201048a17405e29619e3</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>index_col_name</element><position>3</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:53</sys_created_on><sys_id>63ea2b6bdba6201048a17405e29619ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="v_index_creator" sys_domain="global" view="Default view">1fea2b6bdba6201048a17405e29619e3</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>table</element><position>4</position><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:53</sys_created_on><sys_id>e3ea2b6bdba6201048a17405e29619ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="v_index_creator" sys_domain="global" view="Default view">1fea2b6bdba6201048a17405e29619e3</sys_ui_section><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>v_index_creator</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>jmt5778</sys_created_by><sys_created_on>2021-03-04 00:02:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1fea2b6bdba6201048a17405e29619e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>v_index_creator</sys_name><sys_overrides/><sys_package display_value="Index Creator" source="com.glide.db_index_creator">c573420a10022010d15262f9eb11fc9f</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_1fea2b6bdba6201048a17405e29619e3</sys_update_name><sys_updated_by>jmt5778</sys_updated_by><sys_updated_on>2021-03-04 00:02:53</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]>
+</payload>
+
+<payload_hash>81163372</payload_hash>
+
+<remote_update_set display_value="ActiveListing1">543734aa1b6364107761ddbddc4bcb50</remote_update_set>
+
+<replace_on_upgrade>false</replace_on_upgrade>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:26:28</sys_created_on>
+
+<sys_id>dc37b4aa1b6364107761ddbddc4bcbae</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_recorded_at>177fa8b5ed60000001</sys_recorded_at>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:26:28</sys_updated_on>
+
+<table>v_index_creator</table>
+
+<target_name>Database Indexes</target_name>
+
+<type>Form Layout</type>
+
+<update_domain>global</update_domain>
+
+<update_guid>afea6b6b0da620105a4b71a8f9871dc0</update_guid>
+
+<update_guid_history>afea6b6b0da620105a4b71a8f9871dc0:81163372,d3ea2b6bb2a6201064a17295e04f53e7:-454970830</update_guid_history>
+
+<update_set display_value=""/>
+
+<view/>
+
+</sys_update_xml>
+
+</unload>
