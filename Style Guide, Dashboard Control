@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<unload unload_date="2021-04-19 01:32:15">
+
+
+-<sys_remote_update_set action="INSERT_OR_UPDATE">
+
+<application display_value="HR Automation">46d9dbafdb66201048a17405e2961923</application>
+
+<application_name>HR Automation</application_name>
+
+<application_scope>x_snc_hr_automatio</application_scope>
+
+<application_version>1.0.0</application_version>
+
+<collisions/>
+
+<commit_date/>
+
+<deleted/>
+
+<description/>
+
+<inserted/>
+
+<name>StyleGuide</name>
+
+<origin_sys_id/>
+
+<parent display_value=""/>
+
+<release_date>2021-03-14 13:53:22</release_date>
+
+<remote_base_update_set display_value=""/>
+
+<remote_parent_id/>
+
+<remote_sys_id>aed802471b7268107761ddbddc4bcb63</remote_sys_id>
+
+<state>loaded</state>
+
+<summary/>
+
+<sys_class_name>sys_remote_update_set</sys_class_name>
+
+<sys_created_by>sjt5456</sys_created_by>
+
+<sys_created_on>2021-04-19 01:32:14</sys_created_on>
+
+<sys_id>308830ea1b6364107761ddbddc4bcb87</sys_id>
+
+<sys_mod_count>0</sys_mod_count>
+
+<sys_updated_by>sjt5456</sys_updated_by>
+
+<sys_updated_on>2021-04-19 01:32:14</sys_updated_on>
+
+<update_set display_value=""/>
+
+<update_source display_value=""/>
+
+<updated/>
+
+</sys_remote_update_set>
+
+</unload>
